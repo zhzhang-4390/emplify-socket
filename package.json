@@ -1,0 +1,27 @@
+{
+  "name": "emplify-socket",
+  "version": "1.0.0",
+  "description": "Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhzhang-4390/emplify-socket.git"
+  },
+  "author": "zhzhang-4390",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhzhang-4390/emplify-socket/issues"
+  },
+  "homepage": "https://github.com/zhzhang-4390/emplify-socket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
