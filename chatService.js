@@ -73,7 +73,7 @@ module.exports = function (socket) {
     socket.emit("message", data);
     socket.to(data.room).emit("message", data);
 
-    // const message = new Message(data);
-    // message.save();
+    const message = new Message(data);
+    message.save();
   });
 };
