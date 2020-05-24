@@ -17,7 +17,12 @@ io.on("connection", listener);
 
 mongoose.connect(
   process.env.DB_CONNECTION,
-  { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true },
+  {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+  },
   (err) => {
     if (err) {
       console.error(err.message);
